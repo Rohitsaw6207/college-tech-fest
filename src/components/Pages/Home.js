@@ -5,7 +5,6 @@ import Footer from "../Footer";
 import Background from "./Background";
 import Background2 from "./Background2";
 import sp1 from "../images/hp2.png";
-import sp2 from "../images/nike.jpg";
 
 export const Home = () => {
   const [timeLeft, setTimeLeft] = useState({
