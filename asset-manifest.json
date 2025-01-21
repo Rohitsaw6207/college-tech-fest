@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/college-tech-fest/static/css/main.1cf3afa9.css",
+    "main.js": "/college-tech-fest/static/js/main.b1910587.js",
+    "static/media/EnigmaP.png": "/college-tech-fest/static/media/EnigmaP.4c9b64662db813dd4220.png",
+    "static/media/MathManiaPoster.png": "/college-tech-fest/static/media/MathManiaPoster.9a9c2a6821cd3329c18b.png",
+    "static/media/RoboFIFA.jpg": "/college-tech-fest/static/media/RoboFIFA.80be9aef65b62d681322.jpg",
+    "static/media/RoboWar.jpg": "/college-tech-fest/static/media/RoboWar.b3aa52ab23c2d4a648af.jpg",
+    "static/media/MLMania.png": "/college-tech-fest/static/media/MLMania.217a906960b5004e12fb.png",
+    "static/media/InnovativeModel.jpg": "/college-tech-fest/static/media/InnovativeModel.2fc72f730efb78af4a85.jpg",
+    "static/media/CircuitDesign.png": "/college-tech-fest/static/media/CircuitDesign.4c9fc775e996bdc1f1a6.png",
+    "static/media/Nfs.jpg": "/college-tech-fest/static/media/Nfs.364f7844f5e2a5df4bce.jpg",
+    "static/media/InovativeIdea.jpg": "/college-tech-fest/static/media/InovativeIdea.22b26fc34f2b45019bf8.jpg",
+    "static/media/eFOOTBALL.jpg": "/college-tech-fest/static/media/eFOOTBALL.6265a02cbdcf44e79aa1.jpg",
+    "static/media/chazethemaize.jpg": "/college-tech-fest/static/media/chazethemaize.89cb162de3c20b3446a0.jpg",
+    "static/media/Noise-bg.gif": "/college-tech-fest/static/media/Noise-bg.f5628f53b4fc8def28cc.gif",
+    "static/media/hp2.png": "/college-tech-fest/static/media/hp2.f2d85b78f8b7f53f3ab7.png",
+    "static/media/TechnicalPoster.png": "/college-tech-fest/static/media/TechnicalPoster.b3629dd05156085850c4.png",
+    "static/media/CATIAP.png": "/college-tech-fest/static/media/CATIAP.c8245a083ef6938f32c3.png",
+    "static/media/QuizomaniaP.png": "/college-tech-fest/static/media/QuizomaniaP.6aea7aec6007509ee169.png",
+    "static/media/CodeFiesta.png": "/college-tech-fest/static/media/CodeFiesta.08ac73d5c1224154c120.png",
+    "static/media/cotact-small-bg.jpg": "/college-tech-fest/static/media/cotact-small-bg.7072d73666088d5871e3.jpg",
+    "static/media/mckv.png": "/college-tech-fest/static/media/mckv.bd3b30d36a5aa8b90cd3.png",
+    "static/media/logo.png": "/college-tech-fest/static/media/logo.4b29c68fd2026517ad49.png",
+    "static/media/Rohit_Kumar.jpg": "/college-tech-fest/static/media/Rohit_Kumar.b25248d70f738bc74436.jpg",
+    "static/media/phone-call2.png": "/college-tech-fest/static/media/phone-call2.af444808ec7c3e152024.png",
+    "static/media/nike.jpg": "/college-tech-fest/static/media/nike.e9158be7ce731dc7f8a0.jpg",
+    "index.html": "/college-tech-fest/index.html",
+    "main.1cf3afa9.css.map": "/college-tech-fest/static/css/main.1cf3afa9.css.map",
+    "main.b1910587.js.map": "/college-tech-fest/static/js/main.b1910587.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cf3afa9.css",
+    "static/js/main.b1910587.js"
+  ]
+}
