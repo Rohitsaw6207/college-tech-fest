@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Great+Vibes|Noticia+Text|Open+Sans+Condensed:300|Shadows+Into+Light|Shrikhand");
+
+h1{
+  color: white;
+}
+p{
+  color: #a5a4a4;
+}
+.rect-box1 {
+  background-color: lightgray;
+  border-radius: 5px;
+  text-align: center;
+  position: relative; /* Position the image relative to this container */
+  overflow: hidden; /* Ensure the image doesn't overflow */
+  
+  display: block;
+  height: 70vh; /* Set a fixed height for the container */
+}
+
+.background-image {
+  width: 100%; /* Make the image width 100% */
+  height: 100%; /* Make the image height 100% */
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  border-radius: 5px;
+}
+
+.center-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute; /* Position the text over the image */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.center-text p {
+  margin: 0; /* Remove default margin */
+  padding: 5px 0; /* Add padding for spacing */
+}
+.label1{
+background-color: grey;
+color: white;
+font-family: arial;
+font-weight: bold;
+
+}
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mouse-shadow {
+  position: absolute;
+  width: 2px; /* Increase the size */
+  height: 2px; /* Increase the size */
+  background-color: rgba(255, 255, 0, 0.281); /* Slightly reduce opacity */
+  border-radius: 50%;
+  pointer-events: none; /* Disable mouse events for the shadow */
+  transform: translate(-50%, -50%); /* Center the circle on the mouse */
+  transition: transform 1s; /* Smooth follow effect */
+  box-shadow: 0 0 150px 60px rgba(255, 255, 0, 0.281); /* Add blur effect */
+}
+
+/* Base Styles for the Container and Timer */
+.timer-container {
+  text-align: center;
+  margin-top: 40px;
+  background-color: transparent;
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  box-shadow: 0px 5px 10px transparent;
+}
+
+.timer-container h2 {
+  color: #f1f1f1;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Timer Section */
+.timer {
+  display: flex; /* Flexbox for horizontal alignment */
+  justify-content: center;
+  align-items: center;
+  gap: 30px; /* Space between each time box */
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(26, 236, 68, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.timer:hover {
+  transform: scale(1.1); /* Slightly enlarges the timer on hover */
+  box-shadow: 0 0 15px 5px rgba(0, 255, 0, 0.8); /* Green glow on hover */
+}
+
+/* Each Time Box */
+.time-box {
+  display: flex;
+  flex-direction: column; /* Stack time value and label vertically */
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between time value and label */
+}
+
+.time-box .time {
+  font-size: 3rem;
+  color: #32cd32; /* Green color for the time */
+  font-weight: bold;
+  text-shadow: 0 0 10px rgb(35 191 35 / 60%), 0 0 20px rgb(13 30 13 / 80%)/* Glowing effect */
+}
+
+.time-box .label {
+  color: #f1f1f1;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+  .timer {
+    padding: 15px;
+  }
+
+  .time-box .time {
+    font-size: 2rem;
+  }
+
+  .time-box .label {
+    font-size: 16px;
+  }
+}
+
+.wi{
+  width: 90%;
+}
+
+
+
+.segment1-1{
+  padding-top: 100px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.segment1-100{
+  text-align: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.segment1-100-1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.segment1-100-2{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+/* Default Styles */
+.segment1-1 h1 {
+  color: white;
+  font-size: 4rem;
+}
+.segment1-1 h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+.segment1-1 p {
+  color: white;
+  font-size: 25px;
+}
+
+/* Tablet Devices (e.g., width 768px and above) */
+@media (max-width: 1024px) {
+  .segment1-1 h1 {
+    font-size: 50px; /* Adjust font size for tablets */
+  }
+  .segment1-1 p {
+    font-size: 20px; /* Adjust font size for tablets */
+  }
+}
+
+/* Mobile Devices (e.g., width 767px and below) */
+@media (max-width: 767px) {
+  .segment1-1 h1 {
+    font-size: 25px; /* Smaller font size for mobile */
+    text-align: center; /* Optional: Center text for smaller screens */
+  }
+  .segment1-1 p {
+    font-size: 18px; /* Smaller font size for mobile */
+    text-align: center; /* Optional: Center text for smaller screens */
+  }
+  .segment1-100{
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+
+
+.unique-container {
+  height: 30px;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unique-container span {
+  color: #9AE202;
+  font-size: 4rem;
+  letter-spacing: 0.5em;
+  animation: unique-fonts;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  text-shadow: 0 0 20px #aaaaaaa4;
+  
+
+}
+
+@keyframes unique-fonts {
+  0% {
+    font-family: "Courier New", Courier, monospace;
+  }
+  10% {
+    font-family: "Noticia Text", serif;
+  }
+  20% {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  30% {
+    font-family: "Anton", sans-serif;
+  }
+  40% {
+    font-family: "Times New Roman", Times, serif;
+  }
+  50% {
+    font-family: "Abril Fatface", cursive;
+  }
+  60% {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  70% {
+    font-family: "Shrikhand", cursive;
+  }
+  80% {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  }
+  90% {
+    font-family: "Open Sans Condensed", sans-serif;
+  }
+  100% {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+}
+
+
+
+/* Adjust styles for smaller screens */
+@media (max-width: 768px) {
+  .unique-container {
+    padding: 30px;
+  }
+
+  .unique-container span {
+    font-size: 2.5rem;
+    letter-spacing: 0.3em;
+  }
+}
+
+@media (max-width: 480px) {
+  .unique-container {
+    padding: 20px;
+  }
+
+  .unique-container span {
+    font-size: 1.8rem;
+    letter-spacing: 0.2em;
+  }
+
+  .timer-container {
+    text-align: center;
+    margin-top: 40px;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    width: 95%;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0px 5px 10px transparent;
+  }
+  .time-box .time {
+    font-size: 2rem;
+    color: #32cd32; /* Green color for the time */
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(35 191 35 / 60%), 0 0 20px rgb(13 30 13 / 80%)/* Glowing effect */
+  }
+}
+

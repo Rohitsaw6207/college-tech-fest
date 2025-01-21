@@ -1,0 +1,205 @@
+/* Global reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Section styling : change in tag style*/ 
+.event-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 20px; /* Added padding for smaller screens */
+}
+
+/* Content container styling */
+.content {
+  display: flex;
+  flex-direction: row; /* Default horizontal layout */
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background: linear-gradient(
+    180deg,
+    rgba(154, 226, 2, 0.28) 0%, /* Light green gradient */
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(30px);
+  border-radius: 20px;
+  border: 3px solid rgba(154, 226, 2, 0.8); /* Enhanced border visibility */
+  width: min(900px, 100%);
+  box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset,
+    0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
+  z-index: 10;
+  padding: 20px; /* Added padding for better responsiveness */
+}
+
+/* Card styling */
+.card {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Overlay styling */
+.overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top, rgba(15, 32, 39, 0.8), transparent);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay span {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #fff;
+  padding: 7px 18px;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.095);
+  box-shadow: inset 2px -2px 20px rgba(214, 214, 214, 0.2),
+    inset -3px 3px 3px rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(74px);
+}
+
+.overlay h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin: 0 0 20px 20px;
+}
+
+/* Info section styling */
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 450px;
+  padding: 0 35px;
+  text-align: justify;
+}
+
+.info h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 0 4px 8px rgba(174, 255, 0, 0.2), 0 6px 20px rgba(174, 255, 0, 0.3);
+
+}
+
+.info p {
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Flex container for buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Individual button styling */
+.btn {
+  padding: 10px 18px;
+  font-size: 1rem;
+  border-radius: 4px;
+  background: #28a745;
+  color: #fff;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(154, 226, 2, 0.5);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #3cff00;
+  transform: scale(1.05);
+}
+
+/* Tabs section styling */
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.tab {
+  padding: 10px 15px;
+  background: rgba(154, 226, 2, 0.2);
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.tab:hover,
+.tab.active {
+  background: rgba(154, 226, 2, 0.5);
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column; /* Stack content vertically */
+    max-width: 100%; /* Full width on mobile */
+    padding: 20px; /* Add padding for spacing */
+  }
+
+  .card {
+    width: 100%; /* Full width on mobile */
+    margin-bottom: 10px;
+  }
+
+  .info {
+    padding: 0 15px;
+    text-align: center;
+  }
+
+  .tabs {
+    flex-direction: column; /* Stack tabs vertically */
+    gap: 10px;
+  }
+
+  .tab {
+    text-align: center;
+    width: 100%;
+  }
+}

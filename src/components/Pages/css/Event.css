@@ -1,0 +1,163 @@
+/* General container for all event cards */
+.Events-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.Events-title {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 2.5rem !important;
+  z-index: 10 !important;
+  text-shadow: 0 4px 8px rgba(174, 255, 0, 0.2), 0 6px 20px rgba(174, 255, 0, 0.3)!important;
+
+}
+
+/* Grid for cards */
+.cardEvent__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-items: center;
+  width: 100%;
+  z-index: 10 !important;
+}
+
+/* Main card container */
+.cardEvent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 600px; /* Ensure consistent card size */
+  margin: 1rem auto;
+  background: linear-gradient(
+    180deg,
+    rgba(154, 226, 2, 0.28) 0%, /* Light green gradient */
+    rgba(255, 255, 255, 0) 100%
+  );
+  backdrop-filter: blur(30px);
+  border-radius: 12px;
+  border: 3px solid rgba(128, 186, 4, 0.8); /* Enhanced border visibility */ /* Custom shadow with larger radius on right and bottom */
+  box-shadow: 0 0.5px 0 1px rgba(255, 255, 255, 0.23) inset,
+  0 1px 0 0 rgba(255, 255, 255, 0.66) inset, 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+/* Hover effect for the card */
+.cardEvent:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling for the card (square) */
+.cardEvent__image {
+  width: 40%; /* Fixed width for the image */
+  aspect-ratio: 1 / 1; /* Ensures the image stays square */
+  object-fit: cover;
+  flex-shrink: 0; /* Prevents the image from resizing */
+}
+
+/* Content styling for the card */
+.cardEvent__content {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+}
+
+.cardEvent__title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #a1a1a1;
+}
+
+.cardEvent__description {
+  font-size: 1.2rem !important;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.cardEvent__button {
+  display: inline-block; /* Ensures it behaves like a button */
+  font-size: 1rem;
+  color: #fff; /* White text for better contrast */
+  background-color: rgb(0, 124, 0); /* Green background */
+  text-decoration: none; /* Remove underline */
+  font-weight: 500;
+  padding: 0.5rem 1rem; /* Add padding for a button-like look */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover transition */
+  text-align: center; /* Center the text */
+}
+
+.cardEvent__button:hover {
+  background-color: rgb(0, 172, 0); /* Slightly darker green on hover */
+  transform: translateY(-2px); /* Lift effect */
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+.cardEvent__button:active {
+  transform: translateY(0); /* Reset lift effect on click */
+  background-color: rgb(0, 180, 0); /* Even darker green for active state */
+}
+
+
+/* Mobile-specific adjustments */
+@media screen and (max-width: 768px) {
+  /* Event container and title adjustments */
+  .Events-container {
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .Events-title {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .cardEvent__grid {
+    gap: 1.5rem; /* Reduce gap for smaller screens */
+    grid-template-columns: 1fr; /* Single column for small devices */
+  }
+
+  /* Card-specific adjustments */
+  .cardEvent {
+    flex-direction: row; /* Keep image and content side-by-side */
+  }
+
+  .cardEvent__image {
+    width: 38%; /* Ensure the image takes up 40% of the card's width */
+    aspect-ratio: 1 / 1; /* Maintain square shape */
+    margin-left: 15px;
+  }
+
+  .cardEvent__content {
+    text-align: left; /* Left-align content for better readability */
+    padding: 1rem;
+  }
+
+  .cardEvent__title {
+    font-size: 1.25rem;
+  }
+
+  .cardEvent__description {
+    font-size: 0.875rem;
+    display: flex;
+  }
+
+  .cardEvent__button {
+    font-size: 0.875rem;
+  }
+}

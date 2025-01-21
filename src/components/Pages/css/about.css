@@ -1,0 +1,143 @@
+/* General container for the about section */
+
+  /* Title styling */
+  .about-title {
+    margin: 0;
+    font-size: 2.5rem;
+    color: rgb(120, 120, 120); /* Adjust title color */
+    text-align: right;
+    align-self: flex-end; /* Align title to the right in the .rig container */
+    margin-bottom: 20px; /* Add spacing below the title */
+    margin-right: 20%; /* Move the title further to the left on larger devices */
+  }
+  
+  /* Styling for the 'about-1' section */
+  .about-1 {
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap; /* Adjust layout for smaller screens */
+    margin-top: 100px;
+  }
+  
+  /* Left part of the 'about-1' section (image) */
+  .lef {
+    width: 50%;
+    height: 70vh;
+    background-color: transparent;
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    justify-content: center;
+    margin-top: -60px; /* Move the logo further up */
+  }
+  
+  .colg-logo {
+    height: 65vh;
+    width: 50vh;
+    z-index: 10 !important;
+  }
+  
+  /* Right part of the 'about-1' section (text content) */
+  .rig {
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+    text-align: justify !important;
+    padding: 20px;
+    font-size: 1.2rem !important;
+    color: rgb(175, 172, 172);
+    position: relative !important; /* Allow positioning of h1 inside rig */
+    display: flex !important;
+    flex-direction: column !important; /* Stack content in a column */
+    justify-content: flex-start !important; /* Align content to the top */
+    word-wrap: break-word !important; /* Ensure word breaks at appropriate points */
+    z-index: 10 !important;
+  }
+  
+  .highlight-text {
+    color: white;
+  }
+  
+  /* Move the title slightly to the left only on larger devices */
+  @media (min-width: 1025px) {
+    .about-title {
+      margin-right: 20%; /* Move the title further to the left */
+    }
+  }
+  
+  /* Media query for tablets and smaller screens */
+  @media (max-width: 1024px) {
+    .about-1 {
+      margin-top: 70px; /* Reduce top margin for medium screens */
+    }
+  
+    .lef, .rig {
+      width: 100%; /* Full width on tablets */
+      height: auto; /* Auto-adjust height */
+    }
+  
+    .rig {
+      padding: 15px; /* Adjust padding for medium screens */
+    }
+  
+    .about-title {
+      font-size: 2.2rem; /* Slightly smaller font for tablets */
+      margin-bottom: 30px; /* Increase space below title */
+    }
+  
+    .colg-logo {
+      height: 50vh; /* Adjust logo size for medium screens */
+      width: auto; /* Maintain aspect ratio */
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .about-1 {
+      flex-direction: column; /* Stack elements vertically */
+      margin-top: 50px;
+    }
+  
+    .lef, .rig {
+      width: 100%; /* Full width on mobile */
+      height: auto; /* Adjust height for content */
+    }
+  
+    .rig {
+      font-size: 1rem; /* Slightly smaller text for mobile */
+      padding: 15px; /* Adjust padding */
+    }
+  
+    .about-title {
+      font-size: 2rem; /* Smaller font size for mobile */
+      margin-bottom: 40px; /* Increased space below title for mobile */
+      margin-right: 0; /* Reset right margin for smaller screens */
+    }
+  
+    .colg-logo {
+      height: 40vh; /* Adjust logo size */
+      width: auto; /* Maintain aspect ratio */
+      margin-top: -25px; /* Move logo further up on mobile */
+    }
+  }
+  
+  /* Media query for small mobile devices (e.g., below 480px) */
+  @media (max-width: 480px) {
+    .about-title {
+      font-size: 3.2rem !important; /* Reduce font size further */
+      text-align: center; /* Center align the title for small devices */
+      align-self: center; /* Center title within .rig container */
+      margin-bottom: 30px !important; /* Add more space below the title */
+    }
+  
+    .rig {
+      font-size: 0.9rem; /* Slightly smaller text for small devices */
+    }
+  
+    .colg-logo {
+      height: 30vh; /* Reduce logo size */
+      margin-top: 10px; /* Reset margin for better alignment */
+    }
+  }
+  

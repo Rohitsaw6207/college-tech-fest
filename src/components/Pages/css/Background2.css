@@ -1,0 +1,15 @@
+/* Make sure the canvas covers the full screen and stays in the background */
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1 ;  /* Keeps the canvas behind content */
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .pages {
+    position: relative !;
+    z-index: -1 !important; /* Ensure the content stays above the canvas */
+  }
+  

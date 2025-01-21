@@ -1,0 +1,338 @@
+.contuct-us-text {
+    position: relative;
+    background-image: url('../../images/cotact-small-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    color: white; /* Text color for readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10 !important;
+  }
+  
+  .contuct-us-text::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Black overlay with 50% transparency */
+    z-index: 10 !important  }
+  
+  .contuct-us-text > * {
+    position: relative;
+    z-index: 20 !important; /* Ensures text appears above the overlay */
+  }
+
+
+
+  .segment111{
+    width: 100%;
+    border-left: 0.5px solid rgb(75, 74, 74);
+    border-right: 0.5px solid rgb(75, 74, 74);
+    z-index: 10 !important;
+
+  }
+  .segment111{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 950px;
+    z-index: 10 !important;
+
+  }
+  .segment111-1{
+    /* padding-top: 100px; */
+    text-align: center;
+    z-index: 10 !important;
+
+  }
+  .segment111-1 h1 {
+    color: white;
+    font-size: 70px;
+    z-index: 15 !important;
+
+  }
+  
+  .segment111-1 p {
+    color: white;
+    font-size: 25px;
+    z-index: 10 !important;
+
+  }
+  
+  /* Tablet Devices (e.g., width 768px and above) */
+  @media (max-width: 1024px) {
+    .segment111-1 h1 {
+      font-size: 50px; /* Adjust font size for tablets */
+    z-index: 10 !important;
+
+    }
+    .segment111-1 p {
+      font-size: 20px; /* Adjust font size for tablets */
+    z-index: 10 !important;
+
+    }
+  }
+  
+  /* Mobile Devices (e.g., width 767px and below) */
+  @media (max-width: 767px) {
+    .segment111-1 h1 {
+      font-size: 35px; /* Smaller font size for mobile */
+      text-align: center; /* Optional: Center text for smaller screens */
+    z-index: 10 !important;
+
+    }
+    .segment111-1 p {
+      font-size: 18px; /* Smaller font size for mobile */
+      text-align: center; /* Optional: Center text for smaller screens */
+    z-index: 10 !important;
+
+    }
+   
+  }
+  
+  @media (max-width: 1024px) {
+  
+    .segment111{
+      flex-direction: column; /* Stack content vertically */
+      height: auto;
+    z-index: 10 !important;
+
+    }
+  
+  }
+
+
+  .faq-1{
+    width: 100%;;
+    display: flex;
+    background-color: transparent;
+    margin-top: 50px;
+    z-index: 10 !important;
+    
+  }
+  .faq1{
+    width: 40%;
+    background-color: transparent;
+    height: auto;
+    padding: 50px;
+    z-index: 10 !important;
+    
+  }
+  .faq1 h1{
+    color: #9AE202 !important;
+    z-index: 10 !important;
+
+  }
+  .faq2{
+    width: 60%;
+    background-color: transparent;
+    height: 400px;
+    padding: 20px;
+    z-index: 10 !important;
+  }
+  
+  
+  
+  .faq-item {
+    
+    border: 1px solid grey;
+    padding: 10px;
+    z-index: 10 !important;
+
+  }
+  .faq-item h1{
+    font-size: 1.5rem;
+    color: #9AE202 !important;
+    z-index: 10 !important;
+
+  }
+  
+  .faq-question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    z-index: 10 !important;
+  }
+  
+  .faq-answer {
+    font-size: 16px;
+    color: rgb(202, 197, 197);
+    transition: all 0.3s ease-in-out;
+    z-index: 10 !important;
+  }
+
+  .loc-text{
+    text-align: center;
+   margin-bottom: 40px;
+   z-index: 10 !important;
+   
+  }
+  .loc-text h1{
+    color: #9AE202 !important;
+    font-size: 2rem;
+    z-index: 10 !important;
+  }
+  .faqs-text{
+    text-align: center;
+   margin-bottom: 40px;
+   margin-top: 40px;
+   z-index: 10 !important;
+   
+  }
+  .faqs-text h1{
+    color: #9AE202 !important;
+    font-size: 2rem;
+    z-index: 10 !important;
+  }
+  .map{
+    z-index: 11 !important;
+  }
+  
+
+  /* Mobile devices (up to 480px) */
+@media (max-width: 480px) {
+  .faq-1 {
+    flex-direction: column; /* Stack the items vertically */
+    margin-top: 20px; /* Adjust margin */
+    z-index: 10 !important;
+
+  }
+  .faq1,
+  .faq2 {
+    width: fit-content; /* Full width for both sections */
+    padding: 20px; /* Adjust padding */
+    z-index: 10 !important;
+
+  }
+  .faq1 h1,
+  .faq-item h1{
+    font-size: 1.3rem; /* Smaller heading size */
+    z-index: 10 !important;
+
+  }
+  .faq-question {
+    font-size: 16px; /* Smaller font for questions */
+    z-index: 10 !important;
+  }
+  .faq-answer {
+    font-size: 14px; /* Smaller font for answers */
+    z-index: 10 !important;
+  }
+  .faq2 {
+    height: auto; /* Adjust height to content */
+    margin-bottom: 50px;
+    z-index: 10 !important;
+  }
+}
+
+/* Tablet devices (481px to 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+  .faq-1 {
+    flex-direction: column; /* Stack the items vertically */
+    margin-top: 30px; /* Adjust margin */
+    z-index: 10 !important;
+  }
+  .faq1,
+  .faq2 {
+    width: 100%; /* Full width for both sections */
+    padding: 30px; /* Adjust padding */
+    z-index: 10 !important;
+  }
+  .faq1 h1,
+  .faq-item h1,
+  .loc-text h1,
+  .faqs-text h1 {
+    font-size: 1.75rem; /* Adjusted heading size */
+    z-index: 10 !important;
+  }
+  .faq-question {
+    font-size: 17px; /* Adjusted font for questions */
+    z-index: 10 !important;
+  }
+  .faq-answer {
+    font-size: 15px; /* Adjusted font for answers */
+    z-index: 10 !important;
+  }
+  .faq2 {
+    height: auto; /* Adjust height to content */
+    z-index: 10 !important;
+  }
+}
+
+
+.contacts{
+  background-color:transparent;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  padding: 20px;
+  z-index: 10 !important;
+  position: relative; /* Ensure the element is positioned */
+}
+.cont-1{
+width: 40%;
+height: auto;
+background-color: transparent;
+text-align: justify;
+display: flex;
+align-items: center;
+justify-content: center;
+padding:40px
+}
+.cont-1 img{
+  width: 200px;
+  height: 200px;
+ 
+
+}
+.cont-1 p{
+  font-size: 15px;
+
+ 
+
+}
+.cont-2{
+  background-color: transparent;
+  height: 100%;
+  width: 60%;
+  padding: 10px;
+  
+}
+.inside{
+background-color: #1F1F1F;
+width: 100%;
+height: 300px;
+border-radius: 10px;
+}
+
+.part1 h2{
+ color: #9AE202;
+}
+
+.part2{
+  color: #9AE202;
+
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 150px;
+height: 50%;
+ }
+
+ .part3{
+  color: #9AE202;
+  height: 50%;
+  display: flex;
+align-items: center;
+justify-content: center;
+gap: 150px;
+
+ }

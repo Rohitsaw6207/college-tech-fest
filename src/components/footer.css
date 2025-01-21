@@ -1,0 +1,285 @@
+/* Basic footer styling */
+h3{
+    color:white;
+}
+
+.site-footer {
+    background-color: transparent;
+   color:#737373;
+    padding: 20px 0;
+        border-top: 1px solid grey;
+
+  }
+
+.f-logo{
+    width: 40px;
+}
+
+  
+  .site-footer a {
+    color:#737373;
+    text-decoration: none;
+  }
+  .row{
+    display: flex;
+    gap: 40px;
+  }
+  
+  .site-footer a:hover {
+    text-decoration: underline;
+  }
+  .site-footer h6{
+    color: #fff;
+  }
+  
+  /* Container styling */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Footer content styling */
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 0 15px;
+  }
+  
+  .footer-section h6 {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    font-size: 14px;
+  }
+  
+  /* Footer bottom styling */
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom-left {
+    flex: 1;
+  }
+  
+  .footer-bottom-right {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+   
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-left: 15px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    
+  }
+  
+  .social-icons a:hover {
+    color: #ddd;
+  }
+
+
+
+
+  
+  /* Responsive adjustments */
+  @media (max-width: 767px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  
+    .footer-section {
+      margin-bottom: 20px;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-bottom-left {
+      margin-bottom: 10px;
+    }
+  
+    .footer-bottom-right {
+      justify-content: center;
+    }
+  }
+  
+
+
+.f-div-0{
+    width: 20%;
+    padding:10px;
+    text-align: justify;
+    display: flex;
+    gap: 10px;
+    color: #88c406 !important;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.f-div-1{
+    width: 70%;
+    padding:10px;
+    text-align: center;
+    color: #88c406 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10 !important;
+}
+.f-div-2 {
+  width: 10%;
+  padding: 10px;
+  gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:12;
+}
+
+@media (min-width: 1024px) { /* Adjust size for laptop screens and above */
+  .f-div-2 {
+      width: 14%; /* Increase the size */
+      gap: 20px;  /* Adjust gap if needed */
+  }
+
+  .f-div-2 svg {
+      width: 20px; /* Adjust icon size */
+      height: 20px;
+  }
+}
+
+
+/* Responsive adjustments for footer */
+@media (max-width: 767px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  
+    .footer-section {
+      margin-bottom: 20px;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-bottom-left {
+      margin-bottom: 10px;
+    }
+  
+    .footer-bottom-right {
+      justify-content: center;
+    }
+  
+    .f-div-0, .f-div-1, .f-div-2 {
+      width: 100%;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+h3{
+    padding:5px
+}
+    .f-div-0 h3{
+        text-align: center;
+    }
+
+    .f-div-1 ul{
+        list-style: none; /* Removes bullets */
+  padding: 0;       /* Removes default padding */
+  margin: 0; 
+    }
+  .f-div-2 ul{
+        list-style: none; /* Removes bullets */
+  padding: 0;       /* Removes default padding */
+  margin: 0; 
+    }
+  
+    .f-div-0 {
+      text-align: justify;
+      margin: auto;
+      width: 90%;
+    }
+  }
+  
+  /* Further adjustments for very small devices */
+  @media (max-width: 480px) {
+    .row {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .social-icons li {
+      margin-left: 10px;
+    }
+  
+    .footer-section h6 {
+      font-size: 16px;
+    }
+  
+    .footer-section p,
+    .footer-section ul li a {
+      font-size: 12px;
+    }
+  }
+  /* Fix footer at the bottom */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0; /* Removes default body margin */
+  }
+  
+  .site-footer {
+    margin-top: auto;
+  }
+  
