@@ -38,9 +38,6 @@
   z-index: 10 !important;
   transition: text-shadow 0.3s ease-in-out;
 }
-.section-title:hover {
-  text-shadow: 0 4px 8px rgba(255, 255, 255, 0.5), 0 6px 12px rgba(255, 255, 255, 0.7);
-}
 
 /* Team Container and Member Styles */
 .team-container {

@@ -4,8 +4,6 @@ import "./css/index.css";
 import Footer from "../Footer";
 import Background from "./Background";
 import Background2 from "./Background2";
-import sp1 from "../images/hp2.png";
-
 export const Home = () => {
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -53,7 +51,9 @@ export const Home = () => {
               </div>
               Annual Tech Fest of MCKVIE
             </h1>
-
+            <br />
+            <br />
+            <p></p>
             <br />
             <br />
             <h2>EVENT STARTS IN</h2>
@@ -75,26 +75,6 @@ export const Home = () => {
                   <span className="time">{timeLeft.seconds}</span>
                   <span className="label">Seconds</span>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="segment1-1-1">
-            <div className="segment1-100-1">
-              <div>
-                <h1>Pragati 2025 Sponsor</h1>
-                <br />
-                <br />
-              <div className="sponsor-cell-out">
-                <div className="sponsor-cell">
-                  <img
-                    src={sp1}
-                    alt="Description of image"
-                    className="sponsor-images"
-                  />
-                 
-                </div>
-              </div>
               </div>
             </div>
           </div>

@@ -34,7 +34,7 @@ export const Members = () => {
                       <p className="member-roll">B.VOC/SD-2nd Year</p>
                       <div className="member-social">
                         <a
-                          href="https://wa.link/+916207322327"
+                          href="https://wa.me/916207322327"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="social-icon whatsapp"
@@ -42,7 +42,7 @@ export const Members = () => {
                           <FaWhatsapp />
                         </a>
                         <a
-                          href="https://www.instagram.com/rohit..writes_?igsh=Zm1hMnI3aGZvZXRx"
+                          href="https://www.instagram.com/juxt.rxhit?igsh=MTZkN2J3YWRscTZlag=="
                           target="_blank"
                           rel="noopener noreferrer"
                           className="social-icon instagram"
@@ -74,7 +74,7 @@ export const Members = () => {
                       <p className="member-roll">B.VOC/SD-2nd Year</p>
                       <div className="member-social">
                         <a
-                          href="https://wa.link/+916207322327"
+                          href="https://wa.me/916207322327"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="social-icon whatsapp"
@@ -82,7 +82,7 @@ export const Members = () => {
                           <FaWhatsapp />
                         </a>
                         <a
-                          href="https://www.instagram.com/rohit..writes_?igsh=Zm1hMnI3aGZvZXRx"
+                          href="https://www.instagram.com/_rohit._.writes_?igsh=MXhyNTdpbDk2M3luaw=="
                           target="_blank"
                           rel="noopener noreferrer"
                           className="social-icon instagram"
@@ -115,7 +115,7 @@ export const Members = () => {
                       <p className="member-roll">B.VOC/SD-2nd Year</p>
                       <div className="member-social">
                         <a
-                          href="https://wa.link/+916207322327"
+                          href="https://wa.me/916207322327"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="social-icon whatsapp"
@@ -123,7 +123,7 @@ export const Members = () => {
                           <FaWhatsapp />
                         </a>
                         <a
-                          href="https://www.instagram.com/rohit..writes_?igsh=Zm1hMnI3aGZvZXRx"
+                          href="https://www.instagram.com/_rohit._.writes_?igsh=MXhyNTdpbDk2M3luaw=="
                           target="_blank"
                           rel="noopener noreferrer"
                           className="social-icon instagram"
@@ -162,7 +162,7 @@ export const Members = () => {
                       <p className="member-roll">B.Voc-SD</p>
                       <div className="member-social">
                         <a
-                          href="https://wa.me/+916207322327"
+                          href="https://wa.me/916207322327"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="social-icon whatsapp"
@@ -186,7 +186,7 @@ export const Members = () => {
                       <p className="member-roll">B.Voc-SD</p>
                       <div className="member-social">
                         <a
-                          href="https://wa.me/+916207322327"
+                          href="https://wa.me/916207322327"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="social-icon whatsapp"
@@ -210,7 +210,7 @@ export const Members = () => {
                       <p className="member-roll">B.Voc-SD</p>
                       <div className="member-social">
                         <a
-                          href="https://wa.me/+916207322327"
+                          href="https://wa.me/916207322327"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="social-icon whatsapp"
@@ -234,7 +234,7 @@ export const Members = () => {
                       <p className="member-roll">B.Voc-SD</p>
                       <div className="member-social">
                         <a
-                          href="https://wa.me/+916207322327"
+                          href="https://wa.me/916207322327"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="social-icon whatsapp"
@@ -258,7 +258,7 @@ export const Members = () => {
                       <p className="member-roll">B.Voc-SD</p>
                       <div className="member-social">
                         <a
-                          href="https://wa.me/+916207322327"
+                          href="https://wa.me/916207322327"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="social-icon whatsapp"

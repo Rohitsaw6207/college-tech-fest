@@ -23,7 +23,7 @@ const Footer = () => {
             <div className="f-div-2">
               {/* Instagram*/}
               <a
-                href="https://www.instagram.com/pragati.mckvie?igsh=MWJ4Z24yNzJkaGZzdA=="
+                href="https://www.instagram.com/juxt.rxhit?igsh=MTZkN2J3YWRscTZlag=="
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -41,7 +41,7 @@ const Footer = () => {
 
               {/* MAil*/}
               <a
-                href="mailto:pragati@mckvie.edu.in"
+                href="mailto:rohitku6207@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -61,7 +61,7 @@ const Footer = () => {
               {/* Whattapp*/}
 
               <a
-                href="https://whatsapp.com/channel/0029VaHd6v80VycIa4NW0N32"
+                href="https://wa.me/916207322327"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -27,7 +27,7 @@ export const Blog = () => {
           />*/}
           <h2 className="blog-card-title">INNOVATION</h2>
           <p className="blog-card-description">
-            
+            This is description for Card 1
           </p>
           <div className="blog-card-footer">
             <button
@@ -48,7 +48,7 @@ export const Blog = () => {
           />*/}
           <h2 className="blog-card-title">CODING AND ENGINEERING</h2>
           <p className="blog-card-description">
-            
+            This is description for Card 2
           </p>
           <div className="blog-card-footer">
             <button
@@ -69,7 +69,7 @@ export const Blog = () => {
           />*/}
           <h2 className="blog-card-title">QUIZ AND MATH APTITUDE</h2>
           <p className="blog-card-description">
-           
+           This is description for Card 3
           </p>
           <div className="blog-card-footer">
             <button
@@ -90,7 +90,7 @@ export const Blog = () => {
           />*/}
           <h2 className="blog-card-title">GAMING</h2>
           <p className="blog-card-description">
-            
+            This is description for Card 4
           </p>
           <div className="blog-card-footer">
             <button
@@ -111,7 +111,7 @@ export const Blog = () => {
           />*/}
           <h2 className="blog-card-title">ROBOTICS</h2>
           <p className="blog-card-description">
-            
+            This is description for Card 5
           </p>
           <div className="blog-card-footer">
             <button
