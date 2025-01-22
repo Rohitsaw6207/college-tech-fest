@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body, html {
+  background: url('Noise-bg.gif');
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.pages{
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+}
+
+
+.custom-btn-container {
+  display: flex;
+  gap: 20px;
+}
+
+/* Button Base Styling */
+.custom-btn {
+  position: relative;
+  padding: 15px 30px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+
+/* VIEW MORE Button */
+.custom-view-more {
+  color: #000;
+  background-color: #A0FF00;
+  border: 2px solid #A0FF00;
+  transition: background-color 0.4s ease;
+}
+
+.custom-view-more:hover {
+  background-color: #000;
+  border: 2px solid #ffffff;
+  color: white;
+}
+
+/* PURCHASE GAME Button */
+.custom-purchase-game {
+  color: #ffffff;
+  background-color: #000;
+  border: 2px solid #ffffff;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.custom-purchase-game:hover {
+  background-color: #A0FF00;
+  border: 2px solid #000;
+  color: #000;
+}
+
+/* Icon Details */
+.custom-btn .custom-icon {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border: 2px solid #000;
+}
+
+.custom-view-more .custom-icon,
+.custom-purchase-game .custom-icon {
+  border-color: inherit;
+}
+
+.custom-icon.custom-left {
+  top: 10px;
+  left: 10px;
+  border-right: none;
+  border-bottom: none;
+}
+
+.custom-icon.custom-right {
+  bottom: 10px;
+  right: 10px;
+  border-left: none;
+  border-top: none;
+}
+
+.segment11{
+  width: 100%;
+  border-left: 0.5px solid rgb(75, 74, 74);
+  border-right: 0.5px solid rgb(75, 74, 74);
+}
+.segment11{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  height: auto;
+  min-height: 950px;
+}
+.segment11-1{
+  padding-top: 100px;
+  text-align: center;
+}
+.segment11-1 h1 {
+  color: white;
+  font-size: 70px;
+}
+
+.segment11-1 p {
+  color: white;
+  font-size: 25px;
+}
+
+/* Tablet Devices (e.g., width 768px and above) */
+@media (max-width: 1024px) {
+  .segment11-1 h1 {
+    font-size: 50px; /* Adjust font size for tablets */
+  }
+  .segment11-1 p {
+    font-size: 20px; /* Adjust font size for tablets */
+  }
+}
+
+/* Mobile Devices (e.g., width 767px and below) */
+@media (max-width: 767px) {
+  .segment11-1 h1 {
+    font-size: 35px; /* Smaller font size for mobile */
+    text-align: center; /* Optional: Center text for smaller screens */
+  }
+  .segment11-1 p {
+    font-size: 18px; /* Smaller font size for mobile */
+    text-align: center; /* Optional: Center text for smaller screens */
+  }
+ 
+}
+
+@media (max-width: 1024px) {
+
+  .segment11{
+    flex-direction: column; /* Stack content vertically */
+    height: 60vh;
+  }
+
+}
+
+/* For Mobile Devices (max-width: 767px) */
+@media (max-width: 767px) {
+  .segment11{
+    flex-direction: column; /* Stack content */
+    height: auto; /* Allow content to adjust height dynamically */
+    padding-bottom: 30px;
+  }
+
+}
